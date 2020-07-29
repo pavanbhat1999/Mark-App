@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Button, Alert, ScrollView, SafeAreaView, SafeAreaViewComponent, TextInput } from 'react-native';
-import mycomponent from './components/firstcomponent';
+import Mycomponent from './components/Firstcomponent';
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
+      <View>
       <Text style={textStyle.container}>
         This is the text
         
@@ -15,24 +16,30 @@ const App = () => {
       </TextInput>
       <StatusBar style="auto" />
       <Button title="My button" onPress = {() => Alert.alert('button pressed')} />
-      <Text>mycomponent</Text>
-    </View>
+      <Mycomponent />
+      
+      </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-
+    
     flex: 1,
     backgroundColor: 'grey',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center',
+    // justifyContent: 'center',
+    
   },
 });
 
 const textStyle = StyleSheet.create({
   container:{
-    color: 'white'
+    color: 'white',
+    height: 100,
+    position: 'relative',
+    top: 30,
   },
 });
 
