@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button, Alert } from 'react-native';
 import mycomponent from './components/firstcomponent';
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <View style={styles.container}>
       <Text style={textStyle.container}>Testing the App</Text>
       <StatusBar style="auto" />
+      <Button title="My button" onPress = {() => Alert.alert('button pressed')} />
       <Text>mycomponent</Text>
     </View>
   );
