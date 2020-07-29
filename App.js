@@ -17,6 +17,11 @@ const App = () => {
       <StatusBar style="auto" />
       <Button title="My button" onPress = {() => Alert.alert('button pressed')} />
       <Mycomponent />
+      <Mycomponent />
+      <Mycomponent />
+      <Mycomponent />
+      <Mycomponent /><Mycomponent /><Mycomponent /><Mycomponent /><Mycomponent /><Mycomponent /><Mycomponent /><Mycomponent /><Mycomponent /><Mycomponent /><Mycomponent />
+
       <Image
           source={{
             uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
