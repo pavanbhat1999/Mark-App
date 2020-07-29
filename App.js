@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import mycomponent from './components/firstcomponent';
 
-const App=()=> {
+const App = () => {
   return (
     <View style={styles.container}>
       <Text style={textStyle.container}>Testing the App</Text>
