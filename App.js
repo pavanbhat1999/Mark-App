@@ -29,8 +29,8 @@ const FadeInView = (props) => {
 // You can then use your `FadeInView` in place of a `View` in your components:
 export default () => {
   return (
-    <View style={{backgroundColor:'grey',flex:1,flexDirection:'column'}}>
-      <FadeInView style={{width:1000,height:1000}}>
+    <View style={{backgroundColor:'#242424',flex:1,flexDirection:'column'}}>
+      <FadeInView style={{flex:1,resizeMode:'cover',justifyContent:'center'}}>
       <ImageBackground style={{flex:1,resizeMode:'cover',justifyContent:'center'}} source={require('./images/L.png') } />
       </FadeInView>
     </View>
