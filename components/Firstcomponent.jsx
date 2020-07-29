@@ -6,7 +6,7 @@ const Mycomponent = () => {
     return (
         <View>
           <Text style={styles.container}>I am component</Text>
-          <Button title="I am container Button" style={{}} />
+          <Button title="I am component Button" style={{}} />
           <StatusBar style="auto" />
         </View>
       );
