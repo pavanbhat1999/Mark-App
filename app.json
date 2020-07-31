@@ -21,6 +21,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android" :{
+      "package" : "com.singularity.MarkApp",
+      "versionCode" : 1,
+      "permissions" : [],
+      "icon"  :"./assets/icon.png"
     }
   }
 }
